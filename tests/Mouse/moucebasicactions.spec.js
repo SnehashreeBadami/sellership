@@ -1,2 +1,4 @@
 import {test, expect} from "@playwright/test"
-test
+test ("Mouse", aync({page})=>{
+    
+})
