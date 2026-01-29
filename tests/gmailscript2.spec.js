@@ -4,6 +4,6 @@ test("Gmail 01",async({page})=>{
     await page.locator('//input[@type="email"]').fill("snehanagaraj735@gmail.com");
     await page.getByText("Next").click()
     await page.locator('//input[@type="password"]').fill("Skanda@123*!");
-    await page.getByText("Next").click()
+    await page.getByText("Next").click();
 }) 
 
